@@ -1,0 +1,92 @@
+@import "../../assets//scss//variable";
+@import "../../assets//scss//mixins";
+
+.hero-main-container {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 86.13%,
+      #ffffff 100%
+    ),
+    url("../../assets//images/hero-main.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1084px;
+
+  .hero-main-title {
+    padding: 92px 290px 0px 290px;
+
+    @media screen and (max-width: 1200px) {
+      padding: 92px 190px 0px 190px;
+    }
+    @media screen and (max-width: 768px) {
+      padding: 92px 100px 50px 100px;
+    }
+
+    .hero-title {
+      font-family: "Gilroy-Bold";
+      font-size: 80px;
+      line-height: 130%;
+      text-align: center;
+      letter-spacing: -0.01em;
+      text-transform: capitalize;
+      color: $primary-color;
+      margin: 0px;
+
+      @media screen and (max-width: 1200px) {
+        font-size: 50px;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 35px;
+      }
+    }
+  }
+  .hero-main-subtitle {
+    padding: 14px 416px 0px 418px;
+
+    @media screen and (max-width: 992px) {
+      padding: 14px 115px 0px 115px;
+    }
+    @media screen and (max-width: 768px) {
+      padding: 14px 115px 0px 115px;
+    }
+
+    .hero-subtitle {
+      font-family: "Gilroy-Regular";
+      font-size: 24px;
+      line-height: 160%;
+      text-align: center;
+      color: $primary-color;
+      opacity: 0.8;
+    }
+  }
+  .search-main-container {
+    padding-top: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    .search-main-input {
+      position: relative;
+      text-align: center;
+    
+      .main-input1 {
+        background: rgba(255, 255, 255, 0.15);
+        border: 0.861538px solid rgba(255, 255, 255, 0.6) !important;
+        backdrop-filter: blur(4px);
+        border-radius: 42px;
+        width: 344px;  
+        height: 56px;
+        font-family: "Gilroy-Regular";
+        font-size: 18px;
+        line-height: 150%;
+        padding-left: 10px;
+        color: $primary-color;
+        opacity: 0.8;
+      }
+      .search-icon {
+        position: absolute;
+        right: 10px;
+        top: 7px;
+      }
+    }
+  }
+}

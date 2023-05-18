@@ -1,0 +1,71 @@
+.main-card-container {
+  width: 268.09px;
+  height: 492px;
+  .card-background {
+    background: #fafafa;
+
+    width: 268.09px;
+    height: 239.15px;
+    position: relative;
+
+    .chair-image {
+      position: absolute;
+      left: 10px;
+      top: -86px;
+    }
+  }
+  .main-product-text {
+    height: 203px;
+    width: 268.09px;  
+    background: #ffffff;
+    border-radius: 0 0 20px 20px;
+    border-top: none;
+
+    .product-text-div {
+      text-align: start;
+      padding-left: 22px;
+      .chair {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16.7554px;
+        line-height: 20px;
+        color: #8d8d8d;
+        padding-top: 14px;
+      }
+      .chair-title {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 21.3251px;
+        line-height: 26px;
+        color: #0d1b39;
+        padding-top: 8px;
+      }
+      .stars-grp {
+        padding-top: 8px;
+      }
+    }
+  }
+  .price-container {
+    padding-top: 51px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    .price-text {
+      .dollar {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15.2322px;
+        line-height: 18px;
+        color: #0d1b39;
+        margin-top: -1px;
+      }
+    }
+    .plus-image {
+      padding-right: 22px;
+      margin-top: -10px;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+@import "../../../assets//scss//mixins";
+@import "../../../assets//scss/variable";
+
+.main-card-container {
+  
+  .main-image-container {
+    background-image: url("../../../assets/images//test1.svg");
+    width: 370px;
+    height: 476px;
+    position: relative;
+
+    .white-bg {
+      background-image: url("../../../assets//images/Union.svg");
+      width: 334px;
+      height: 239px;
+      position: absolute;
+      top: 220px;
+      right: 18px;
+      left: 18px;
+      bottom: 18px;
+      .person1 {
+        position: absolute;
+        top: 7px;
+        left: 142px;
+      }
+
+      .main-name {
+        @include testNameStyle();
+        padding-top: 70px;
+      }
+      .main-subtitle {
+        @include testNameSubtitleStyle();
+        padding-top: 6px;
+      }
+      .main-description {
+        @include testDescription();
+        padding: 22px 40px 0px 42px;
+      }
+      .star-container {
+        padding-top: 23px;
+      }
+    }
+  }
+}

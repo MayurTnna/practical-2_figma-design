@@ -1,0 +1,53 @@
+@import "../../assets//scss//mixins";
+@import "../../assets/scss/variable";
+
+.product-main-container {
+  padding-top: 50px;
+  background: #f7f7f7;
+
+  .product-main-title {
+    @include commonTitleStyle();
+    text-align: center;
+  }
+
+  .main-btn-div {
+    text-align: center;
+    padding-top: 32px;
+
+    .btn-main-container {
+      background: #eeeeee;
+      border-radius: 44px;
+      border: none !important;
+      width: 348px;
+      .white-bg {
+        background: #ffffff;
+        border-radius: 32px;
+        width: 84px;
+        height: 45px;
+      }
+
+      label {
+        font-family: "Gilroy-Regular";
+        font-size: 18px;
+        line-height: 185%;
+        color: $common-title-color;
+        opacity: 0.8;
+      }
+    }
+  }
+  .yellow-container {
+    justify-content: center;
+    padding-top: 60px;
+    @media screen and (max-width: 998px) {
+    }
+
+    .yellow-text {
+      @include chooseYellowtext();
+      padding-top: 14px;
+      font-size: 18px !important;
+    }
+    .yellowArrow {
+      padding: 10px 0px 0px 13px;
+    }
+  }
+}

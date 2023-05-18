@@ -1,0 +1,75 @@
+@import "../../assets//scss//mixins";
+@import "../../assets//scss/variable";
+
+.experience-main-container {
+  padding-top: 240px;
+  .left-container {
+    background: url("../../assets//images//experience.svg");
+    border-radius: 0px 20px 20px 0px;
+    max-width: 629px;
+    min-height: 445px;
+    background-repeat: no-repeat;
+    position: relative;
+    .shadow-left {
+      position: absolute;
+      top: 71px;
+      left: 178px;
+      z-index: -1;
+    }
+    .shadow-up {
+      position: absolute;
+      top: -66px;
+      left: 0px;
+      z-index: -1;
+    }
+  }
+  .right-container {
+    padding-top: 83px;
+    @media screen and (max-width: 992px) {
+      margin: auto;
+      text-align: center;
+    }
+    @media screen and (max-width: 768px) {
+      margin: auto;
+      text-align: center;
+    }
+    .main-title {
+     @include yellowtitle();
+    }
+    .main-subtitle {
+      @include commonTitleStyle();
+      padding-top: 20px;
+      max-width: 413px;
+      @media screen and (max-width: 992px) {
+        margin: auto;
+        text-align: center;
+      }
+    }
+    .main-description {
+      font-family: "Gilroy-Regular";
+      font-size: 18px;
+      line-height: 185%;
+      color: $common-title-color;
+      opacity: 0.8;
+      width: 556px;
+      padding-top: 20px;
+      @media screen and (max-width: 992px) {
+        margin: auto;
+        text-align: center;
+      }
+    }
+    .yellow-container {
+      @media screen and (max-width: 998px) {
+        margin: auto;
+      }
+
+      .yellow-text {
+        @include chooseYellowtext();
+        padding-top: 14px;
+      }
+      .yellowArrow {
+        padding: 10px 0px 0px 13px;
+      }
+    }
+  }
+}

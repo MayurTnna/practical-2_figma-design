@@ -1,0 +1,89 @@
+@import "../fonts/fonts.scss";
+
+@mixin commonPosition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin headerTextStyle {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+@mixin commonTitleStyle {
+  font-family: "Gilroy-Bold";
+  font-size: 42px;
+  line-height: 49px;
+  color: #1e1e1e;
+}
+@mixin chooseTitleStyle {
+  font-family: "Gilroy-Bold";
+  font-size: 24px;
+  line-height: 28px;
+  color: #1e1e1e;
+  opacity: 0.9;
+}
+@mixin chooseSubtitleStyle {
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  line-height: 185%;
+  color: #1e1e1e;
+  opacity: 0.8;
+  width: 100%;
+}
+@mixin chooseYellowtext {
+  font-family: "Gilroy-Medium";
+  font-size: 14px;
+  line-height: 185%;
+  color: #e58411;
+}
+
+@mixin yellowtitle {
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.175em;
+  text-transform: uppercase;
+  color: #e58411;
+}
+@mixin testNameStyle {
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #1e1e1e;
+}
+@mixin testNameSubtitleStyle {
+  font-family: "Gilroy-Regular";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #1e1e1e;
+  opacity: 0.6;
+}
+@mixin testDescription {
+  font-family: "Gilroy-Regular";
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #1e1e1e;
+  opacity: 0.8;
+}
+@mixin footerSubText {
+  font-family: "Gilroy-Medium";
+  font-size: 15px;
+  line-height: 160%;
+  color: #1e1e1e;
+  opacity: 0.8;
+}
+@mixin footerYellowText {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.231818px;
+  color: #f6973f;
+}

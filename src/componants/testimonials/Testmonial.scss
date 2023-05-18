@@ -1,0 +1,16 @@
+@import "../../assets//scss/mixins";
+@import "../../assets/scss/variable";
+
+.test-main-container {
+  padding-top: 262px;
+
+  .test-title {
+    @include yellowtitle();
+    text-align: center;
+  }
+  .test-subtitle {
+    @include commonTitleStyle();
+    text-align: center;
+    padding-top: 20px;
+  }
+}

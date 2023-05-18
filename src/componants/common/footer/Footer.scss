@@ -1,0 +1,87 @@
+@import "../../../assets//scss/mixins";
+@import "../../../assets//scss/variable";
+
+.footer-main-container {
+  padding-top: 240px;
+  .footer-container {
+    background: #f7f7f7;
+
+    .footer-div {
+      padding: 118px 0px 0px 188px;
+      @media screen and (max-width: 768px) {
+        padding: 0px;
+        margin: auto;
+        text-align: center;
+      }
+      .panto {
+        font-family: "Gilroy-Bold";
+        font-size: 28px;
+        line-height: 33px;
+        letter-spacing: 0.01em;
+        text-transform: capitalize;
+        color: #1e1e1e;
+      }
+      .panto-description {
+        @include footerSubText();
+        padding-top: 29px;
+      }
+      .yellow-text {
+        @include footerYellowText();
+      }
+      .email {
+        @include footerSubText();
+        padding-top: 20px;
+      }
+      .campaigns {
+        @include footerSubText();
+        padding-top: 16px;
+      }
+      .binding {
+        @include footerSubText();
+        padding-top: 16px;
+      }
+
+      .copyright-main {
+        padding-top: 130px!important;
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width :768px) {
+            padding-top: 10px!important;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .copy-text {
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 20px;
+          letter-spacing: -0.204545px;
+          color: #1e2833;
+          mix-blend-mode: normal;
+          opacity: 0.5;
+          display: initial;
+        }
+        .terms-privacy {
+            padding-right: 188px;
+            @media screen and (max-width :768px) {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                padding-left: 180px;
+                
+            }
+           
+          .terms {
+            @include footerSubText();
+          }
+          .privacy {
+            @include footerSubText();
+          }
+        }
+      }
+    }
+  }
+}

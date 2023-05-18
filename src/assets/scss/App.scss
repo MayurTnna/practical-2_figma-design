@@ -1,0 +1,7 @@
+@import "./mixins";
+@import "./variable";
+@import "./../fonts/gilroy-bold-cufonfonts-webfont/style.scss";
+
+body {
+  font-family: "Gilroy-Bold" !important;
+}

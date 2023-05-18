@@ -1,0 +1,33 @@
+@import "../../../assets//scss//mixins.scss";
+.navbar-main {
+  padding: 40px 0 0 80px;
+
+  .nav-gap {
+    gap: 62px;
+    @media screen and (max-width: 998px) {
+      gap: 10px !important;
+    }
+  }
+
+  .nav-link {
+    @include headerTextStyle();
+  }
+  &-text {
+    @include headerTextStyle();
+  }
+  .bag-container {
+    padding-right: 80px;
+    @media screen and (max-width: 998px) {
+      gap: 10px;
+    }
+    .bag-main {
+      position: relative;
+      width: 30px;
+      .egg {
+        position: absolute;
+        right: -3px;
+        top: 5px;
+      }
+    }
+  }
+}
