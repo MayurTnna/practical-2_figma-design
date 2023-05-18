@@ -3,7 +3,9 @@
 
 .test-main-container {
   padding-top: 262px;
-
+  @media screen and (max-width: 768px) {
+    padding-top: 80px;
+  }
   .test-title {
     @include yellowtitle();
     text-align: center;

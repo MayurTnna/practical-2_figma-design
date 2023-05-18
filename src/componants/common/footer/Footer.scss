@@ -3,6 +3,10 @@
 
 .footer-main-container {
   padding-top: 240px;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 20px;
+  }
   .footer-container {
     background: #f7f7f7;
 
@@ -24,6 +28,10 @@
       .panto-description {
         @include footerSubText();
         padding-top: 29px;
+
+        @media screen and (max-width: 420px) {
+          font-size: 9px !important;
+        }
       }
       .yellow-text {
         @include footerYellowText();
@@ -42,15 +50,14 @@
       }
 
       .copyright-main {
-        padding-top: 130px!important;
+        padding-top: 130px !important;
         display: flex;
         justify-content: space-between;
-        @media screen and (max-width :768px) {
-            padding-top: 10px!important;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            
+        @media screen and (max-width: 768px) {
+          padding-top: 10px !important;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
         }
         .copy-text {
           font-family: "DM Sans";
@@ -63,19 +70,25 @@
           mix-blend-mode: normal;
           opacity: 0.5;
           display: initial;
+          @media screen and (max-width: 768px) {
+            margin-bottom: 10px;
+          }
         }
         .terms-privacy {
-            padding-right: 188px;
-            @media screen and (max-width :768px) {
-                text-align: center;
-                display: flex;
-                flex-direction: column;
-                padding-left: 180px;
-                
-            }
-           
+          padding-right: 188px;
+          @media screen and (max-width: 768px) {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            padding: 0px;
+            margin-bottom: 10px;
+          }
+
           .terms {
             @include footerSubText();
+            @media screen and (max-width: 768px) {
+              margin-bottom: 10px;
+            }
           }
           .privacy {
             @include footerSubText();

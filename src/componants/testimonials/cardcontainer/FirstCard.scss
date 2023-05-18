@@ -2,7 +2,6 @@
 @import "../../../assets//scss/variable";
 
 .main-card-container {
-  
   .main-image-container {
     background-image: url("../../../assets/images//test1.svg");
     width: 370px;
@@ -18,6 +17,7 @@
       right: 18px;
       left: 18px;
       bottom: 18px;
+
       .person1 {
         position: absolute;
         top: 7px;

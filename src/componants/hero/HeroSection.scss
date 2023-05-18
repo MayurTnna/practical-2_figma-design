@@ -16,10 +16,11 @@
     padding: 92px 290px 0px 290px;
 
     @media screen and (max-width: 1200px) {
-      padding: 92px 190px 0px 190px;
+      padding: 92px 0px 0px 0px!important;
+      margin: auto;
     }
     @media screen and (max-width: 768px) {
-      padding: 92px 100px 50px 100px;
+      padding: 92px 0px 50px 0px;
     }
 
     .hero-title {
@@ -44,10 +45,12 @@
     padding: 14px 416px 0px 418px;
 
     @media screen and (max-width: 992px) {
-      padding: 14px 115px 0px 115px;
+      padding: 14px 0px 0px 0px;
+      margin: auto;
     }
     @media screen and (max-width: 768px) {
-      padding: 14px 115px 0px 115px;
+      padding: 14px 0px 0px 0px;
+      margin: auto;
     }
 
     .hero-subtitle {
@@ -81,6 +84,10 @@
         padding-left: 10px;
         color: $primary-color;
         opacity: 0.8;
+        @media  screen and (max-width :768px){
+          width: auto;
+          
+        }
       }
       .search-icon {
         position: absolute;

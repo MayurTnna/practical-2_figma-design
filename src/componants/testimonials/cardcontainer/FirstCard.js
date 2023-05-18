@@ -22,7 +22,7 @@ const FirstCard = () => {
               <img src={star} alt="not star" className="px-1" />
               <img src={star} alt="not star" className="px-1" />
               <img src={star} alt="not star" className="px-1" />
-              <img src={halfstar} alt="not star" className="px-1" />
+              <img src={halfstar} alt="not star" className="px-1 fs-4" />
             </div>
           </div>
         </div>

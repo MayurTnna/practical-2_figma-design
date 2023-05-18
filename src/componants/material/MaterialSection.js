@@ -35,20 +35,32 @@ function MaterialSection() {
             <div className="row">
               <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 ">
                 <div className="col-xl-12 img1">
-                  <img src={leftmaterial1} alt="left1" />
+                  <img
+                    src={leftmaterial1}
+                    className=" leftmaterial1 img-fluid"
+                    alt="left1"
+                  />
                 </div>
                 <div className="col-xl-12">
-                  <img src={leftmaterial2} alt="left1" />
+                  <img
+                    src={leftmaterial2}
+                    alt="left1"
+                    className=" leftmaterial2 img-fluid"
+                  />
                 </div>
               </div>
             </div>
           </div>{" "}
           <div className="col-xl-4 p-0">
             <div className="leftmain">
-              <img src={leftmaterial3} alt="left3" />
+              <img
+                src={leftmaterial3}
+                alt="left3"
+                className="img-fluid leftmain-image"
+              />
               <img
                 src={leftexperienceshadow}
-                className="leftshadow"
+                className="leftshadow img-fluid"
                 alt="leftexperienceshadow"
               />{" "}
             </div>

@@ -11,8 +11,8 @@ const Experience = () => {
         <div className="row">
           <div className=" col-xl-6 col-lg-6 col-md-12 col-sm-12 ">
             <div className="left-container">
-              <img src={leftshadow} alt="leftshadow" className="shadow-left" />{" "}
-              <img src={shadowup} alt="shadowup" className="shadow-up" />
+              <img src={leftshadow} alt="leftshadow" className="shadow-left image-fluid" />{" "}
+              <img src={shadowup} alt="shadowup" className="shadow-up image-fluid" />
             </div>
           </div>
           <div className=" col-xl-6 col-lg-6 col-md-12 col-sm-12 ">

@@ -22,7 +22,7 @@ function App() {
       <MaterialSection />
       <TestimonialSection />
       <SliderMain/>
-    <Footer/>
+    <Footer/> 
     </div>
   );
 }

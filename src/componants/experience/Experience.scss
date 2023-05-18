@@ -3,6 +3,9 @@
 
 .experience-main-container {
   padding-top: 240px;
+  @media (max-width : 768px){
+    padding-top: 70px
+  }
   .left-container {
     background: url("../../assets//images//experience.svg");
     border-radius: 0px 20px 20px 0px;
@@ -10,17 +13,26 @@
     min-height: 445px;
     background-repeat: no-repeat;
     position: relative;
+    @media screen and (max-width: 992px) {
+      width: auto;
+    }
     .shadow-left {
       position: absolute;
       top: 71px;
       left: 178px;
       z-index: -1;
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
     }
     .shadow-up {
       position: absolute;
       top: -66px;
       left: 0px;
       z-index: -1;
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
     }
   }
   .right-container {
@@ -34,12 +46,13 @@
       text-align: center;
     }
     .main-title {
-     @include yellowtitle();
+      @include yellowtitle();
     }
     .main-subtitle {
       @include commonTitleStyle();
       padding-top: 20px;
       max-width: 413px;
+
       @media screen and (max-width: 992px) {
         margin: auto;
         text-align: center;
@@ -51,16 +64,17 @@
       line-height: 185%;
       color: $common-title-color;
       opacity: 0.8;
-      width: 556px;
+      padding-right: 141px;
       padding-top: 20px;
       @media screen and (max-width: 992px) {
+        padding-right: 0px;
         margin: auto;
         text-align: center;
       }
     }
     .yellow-container {
-      @media screen and (max-width: 998px) {
-        margin: auto;
+      @media screen and (max-width: 992px) {
+        justify-content: center;
       }
 
       .yellow-text {

@@ -3,8 +3,14 @@
 
 .material-main-container {
   padding: 240px 0px 0px 80px;
+  @media screen and (max-width: 768px) {
+    padding: 10px 0px 0px 0px !important;
+  }
   .left-container {
     padding-top: 83px;
+    @media screen and (max-width: 768px) {
+      padding-top: 50px;
+    }
     .main-title {
       font-family: "Gilroy-Bold";
       font-size: 18px;
@@ -12,14 +18,20 @@
       letter-spacing: 0.175em;
       text-transform: uppercase;
       color: #e58411;
+      @media screen and (max-width: 992px) {
+        margin: auto !important;
+        text-align: center;
+      }
     }
     .main-subtitle {
       @include commonTitleStyle();
       padding-top: 20px;
-      max-width: 413px;
+      padding-right: 237px;
       @media screen and (max-width: 992px) {
-        margin: auto;
+        padding-right: 0;
+        margin: auto !important;
         text-align: center;
+        font-size: 30px;
       }
     }
     .main-description {
@@ -28,16 +40,17 @@
       line-height: 185%;
       color: $common-title-color;
       opacity: 0.8;
-      width: 556px;
+      padding-right: 94px;
       padding-top: 20px;
       @media screen and (max-width: 992px) {
         margin: auto;
         text-align: center;
+        padding-right: 0;
       }
     }
     .yellow-container {
       @media screen and (max-width: 998px) {
-        margin: auto;
+        justify-content: center;
       }
 
       .yellow-text {
@@ -52,8 +65,12 @@
   .leftmain {
     text-align: end;
     position: relative;
-    @media screen and (max-width : 992px) {
+    @media screen and (max-width: 992px) {
       margin: auto;
+      margin-top: 80px !important;
+    }
+    .leftmain-image {
+      width: 100%;
     }
   }
   .leftshadow {
@@ -61,8 +78,24 @@
     right: 0px;
     top: -60px;
     z-index: -1;
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
   }
   .img1 {
     padding-bottom: 47px;
+  }
+  .leftmaterial1 {
+    @media screen and (max-width: 992px) {
+      display: flex;
+      padding-top: 20px;
+      margin: auto;
+    }
+  }
+  .leftmaterial2 {
+    @media screen and (max-width: 992px) {
+      display: flex;
+      margin: auto;
+    }
   }
 }

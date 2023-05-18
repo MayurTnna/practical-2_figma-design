@@ -1,4 +1,4 @@
-.slider-container {
+.slider-container-product {
   padding-top: 130px;
 
   .main-slider-container {
@@ -6,15 +6,24 @@
   }
   .slick-prev {
     width: 79px;
-    left: -37px;
+    left: -32px;
     height: 100px;
     z-index: 99999;
+    @media screen and (max-width: 768px) {
+      left: 6px !important;
+    }
   }
-  .slick-next{
+  .slick-next {
     height: 100px;
     z-index: 99999;
     width: 79px;
-    right: 14px;
-
+    right: -32px;
+    @media screen and (max-width: 768px) {
+      right: 6px !important;
+    }
+  }
+  .slick-slide {
+    display: flex;
+    justify-content: center;
   }
 }
