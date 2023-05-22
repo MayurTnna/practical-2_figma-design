@@ -1,8 +1,10 @@
 @import "../../assets//scss//mixins";
 @import "../../assets//scss/variable";
-
 .material-main-container {
   padding: 240px 0px 0px 80px;
+  @media screen and (max-width: 992px) {
+    padding: 10px 0px 0px 0px !important;
+  }
   @media screen and (max-width: 768px) {
     padding: 10px 0px 0px 0px !important;
   }

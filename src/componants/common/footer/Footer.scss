@@ -12,6 +12,10 @@
 
     .footer-div {
       padding: 118px 0px 0px 188px;
+      @media screen and (max-width: 992px) {
+        padding: 118px 0px 0px 150px;
+        margin: auto;
+      }
       @media screen and (max-width: 768px) {
         padding: 0px;
         margin: auto;

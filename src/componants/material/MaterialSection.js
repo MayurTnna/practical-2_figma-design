@@ -31,21 +31,21 @@ function MaterialSection() {
               </div>
             </div>
           </div>
-          <div className="col-xl-2">
+          <div className="col-xl-2 col-lg-12">
             <div className="row">
               <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 ">
-                <div className="col-xl-12 img1">
+                <div className="col-xl-12 col-md-12 col-sm-12 img1">
                   <img
                     src={leftmaterial1}
-                    className=" leftmaterial1 img-fluid"
+                    className=" leftmaterial1 "
                     alt="left1"
                   />
                 </div>
-                <div className="col-xl-12">
+                <div className="col-xl-12 col-md-12 col-sm-12">
                   <img
                     src={leftmaterial2}
-                    alt="left1"
-                    className=" leftmaterial2 img-fluid"
+                    alt="left2"
+                    className=" leftmaterial2 "
                   />
                 </div>
               </div>
@@ -62,7 +62,7 @@ function MaterialSection() {
                 src={leftexperienceshadow}
                 className="leftshadow img-fluid"
                 alt="leftexperienceshadow"
-              />{" "}
+              />
             </div>
           </div>
         </div>

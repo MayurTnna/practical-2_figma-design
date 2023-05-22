@@ -2,7 +2,7 @@ import React from "react";
 import "../cardcontainer/FirstCard.scss";
 import person1 from "../../../assets/images/person1.svg";
 import star from "../../../assets/images/star.svg";
-import halfstar from "../../../assets/images/halfstar.svg";
+import halfstar from "../../../assets/images/half-main-star.svg";
 
 const FirstCard = () => {
   return (
@@ -18,11 +18,11 @@ const FirstCard = () => {
               terlihat mahal“
             </div>
             <div className="d-flex justify-content-center star-container">
-              <img src={star} alt="not star"  className="px-1" />
               <img src={star} alt="not star" className="px-1" />
               <img src={star} alt="not star" className="px-1" />
               <img src={star} alt="not star" className="px-1" />
-              <img src={halfstar} alt="not star" className="px-1 fs-4" />
+              <img src={star} alt="not star" className="px-1" />
+              <img src={halfstar} alt="not star" className="px-1 " />
             </div>
           </div>
         </div>

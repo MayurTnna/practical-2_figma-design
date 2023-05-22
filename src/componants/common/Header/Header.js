@@ -15,7 +15,12 @@ function Header() {
         <Navbar.Brand href="#home">
           <img src={logo} alt="main-logo" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <div className="px-3">
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            className="navbar-toggler-dark "
+          />
+        </div>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto navbar-main-text nav-gap">
             <NavDropdown
@@ -35,7 +40,7 @@ function Header() {
           </Nav>
           <div className="bag-container">
             <Nav.Link href="#link">
-              <div className="bag-main">
+              <div className="bag-main me-aut">
                 <img src={bag} alt="bag" className="bag" />
                 <img src={egg} alt="egg" className="egg" />
               </div>

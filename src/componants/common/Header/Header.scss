@@ -1,8 +1,12 @@
 @import "../../../assets//scss//mixins.scss";
 .navbar-main {
   padding: 40px 0 0 80px;
-  @media (max-width : 576px){
+  @media (max-width: 576px) {
     padding: 20px 0 0 20px;
+  }
+  .navbar-toggler-dark {
+    background-color: #333;
+    border-color: #333;
   }
 
   .nav-gap {

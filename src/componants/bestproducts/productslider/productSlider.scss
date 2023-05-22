@@ -17,7 +17,7 @@
   }
   .main-product-text {
     height: 203px;
-    width: 268.09px;  
+    width: 268.09px;
     background: #ffffff;
     border-radius: 0 0 20px 20px;
     border-top: none;
@@ -47,26 +47,27 @@
         padding-top: 8px;
       }
     }
-  }
-  .price-container {
-    padding-top: 51px;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    .price-text {
-      .dollar {
-        font-family: "Inter";
-        font-style: normal;
-        font-weight: 600;
-        font-size: 15.2322px;
-        line-height: 18px;
-        color: #0d1b39;
-        margin-top: -1px;
+
+    .price-container {
+      padding-top: 51px;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      .price-text {
+        .dollar {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 15.2322px;
+          line-height: 18px;
+          color: #0d1b39;
+          margin-top: -1px;
+        }
       }
-    }
-    .plus-image {
-      padding-right: 22px;
-      margin-top: -10px;
+      .plus-image {
+        padding-right: 22px;
+        margin-top: -10px;
+      }
     }
   }
 }
