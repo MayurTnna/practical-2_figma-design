@@ -16,7 +16,7 @@
     padding: 92px 290px 0px 290px;
 
     @media screen and (max-width: 1200px) {
-      padding: 92px 0px 0px 0px!important;
+      padding: 92px 0px 0px 0px !important;
       margin: auto;
     }
     @media screen and (max-width: 768px) {
@@ -70,13 +70,13 @@
     .search-main-input {
       position: relative;
       text-align: center;
-    
+
       .main-input1 {
         background: rgba(255, 255, 255, 0.15);
         border: 0.861538px solid rgba(255, 255, 255, 0.6) !important;
         backdrop-filter: blur(4px);
         border-radius: 42px;
-        width: 344px;  
+        width: 344px;
         height: 56px;
         font-family: "Gilroy-Regular";
         font-size: 18px;
@@ -84,9 +84,8 @@
         padding-left: 10px;
         color: $primary-color;
         opacity: 0.8;
-        @media  screen and (max-width :768px){
+        @media screen and (max-width: 768px) {
           width: auto;
-          
         }
       }
       .search-icon {

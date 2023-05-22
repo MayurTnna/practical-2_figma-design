@@ -9,12 +9,12 @@ function HeroSection() {
       <div className="hero-main-container">
         <Header />
         <div className="hero-main-title">
-          <p className="hero-title">
+          <p className="hero-title ">
             Make your interior more minimalistic & modern
           </p>
         </div>
         <div className="hero-main-subtitle">
-          <p className="hero-subtitle">
+          <p className="hero-subtitle container">
             Turn your room with panto into a lot more minimalist and modern with
             ease and speed
           </p>

@@ -1,6 +1,7 @@
 .slider-container {
+  padding-top: 60px;
   @media screen and (max-width: 768px) {
-    padding-top: 0px;
+    padding-top: 60px;
     margin: auto;
   }
   .slick-prev {
@@ -8,12 +9,21 @@
     left: -40px;
     height: 100px;
     z-index: 99999;
+    @media screen and (max-width: 768px) {
+      left: 33px;
+    }
+    @media screen and (max-width: 420px) {
+      left: -20px;
+    }
   }
   .slick-next {
     height: 100px;
     z-index: 99999;
     width: 79px;
     right: 24px;
+    @media screen and (max-width: 768px) {
+      right: 33px;
+    }
     @media screen and (max-width: 420px) {
       right: -20px;
     }

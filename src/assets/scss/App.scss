@@ -5,3 +5,14 @@
 body {
   font-family: "Gilroy-Bold" !important;
 }
+
+.row {
+  --bs-gutter-x: 0;
+}
+.col {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  --bs-gutter-x: 0;
+}

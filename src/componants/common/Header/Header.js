@@ -15,13 +15,13 @@ function Header() {
         <Navbar.Brand href="#home">
           <img src={logo} alt="main-logo" />
         </Navbar.Brand>
-        <div className="px-3">
+        <div className="px-3 ">
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
-            className="navbar-toggler-dark "
+            className="navbar-toggler-dark  "
           />
         </div>
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className="nav-collap">
           <Nav className="mx-auto navbar-main-text nav-gap">
             <NavDropdown
               className="navbar-main-text"
@@ -53,3 +53,6 @@ function Header() {
 }
 
 export default Header;
+
+
+

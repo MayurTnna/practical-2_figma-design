@@ -5,7 +5,7 @@ import yellowArrow from "../../assets/images/yellow-arrow.svg";
 const ChooseOption = () => {
   return (
     <>
-      <div className="chooseoption-main-container">
+      <div className="chooseoption-main-container container">
         <div className="text-container">
           <div className="row">
             <div className=" col-xl-3 col-lg-12 ">
@@ -13,7 +13,7 @@ const ChooseOption = () => {
             </div>
             <div className=" col-xl-3 col-lg-4  col-12 d-flex flex-column">
               <div className="title-text">Luxury Facalities</div>
-              <p className="subtitle-text m-0 ">
+              <p className="subtitle-text  ">
                 The advantage of hiring a workspace with us is that givees you
                 comfortable service and all-around facilities.
               </p>

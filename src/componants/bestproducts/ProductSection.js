@@ -1,7 +1,7 @@
 import React from "react";
 import "../bestproducts/ProductSection.scss";
 import SliderMain from "./productslider/slider/SliderMain";
-import yellowArrow from "../../assets/images/yellow-arrow.svg"
+import yellowArrow from "../../assets/images/yellow-arrow.svg";
 
 const ProductSection = () => {
   return (
@@ -56,13 +56,9 @@ const ProductSection = () => {
         </div>
         <SliderMain />
         <div className=" d-flex yellow-container">
-                <p className="m-0 yellow-text ">View More</p>
-                <img
-                  src={yellowArrow}
-                  alt="yellowArrow"
-                  className="yellowArrow"
-                />
-              </div>
+          <p className="m-0 yellow-text ">View All</p>
+          <img src={yellowArrow} alt="yellowArrow" className="yellowArrow" />
+        </div>
       </div>
     </>
   );

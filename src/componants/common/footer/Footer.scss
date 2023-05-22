@@ -31,8 +31,12 @@
       }
       .panto-description {
         @include footerSubText();
-        padding-top: 29px;
+        padding: 29px 65px 0 0;
 
+        @media screen and (max-width: 768px) {
+          font-size: 13px !important;
+          padding: 29px 0px 0 0;
+        }
         @media screen and (max-width: 420px) {
           font-size: 9px !important;
         }

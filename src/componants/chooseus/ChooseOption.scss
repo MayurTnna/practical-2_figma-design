@@ -2,7 +2,7 @@
 @import "../../assets//scss/variable";
 
 .chooseoption-main-container {
-  background: #f5f5f5;
+  background: #ffffff !important;
 
   .text-container {
     padding: 120px 0px 120px 80px;
@@ -10,7 +10,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 120px 0px 120px 0px!important;
+      padding: 120px 0px 120px 0px !important;
       margin: auto;
     }
     @media screen and (max-width: 768px) {
@@ -21,11 +21,13 @@
   .choose-title {
     @include commonTitleStyle();
     text-align: start;
-    width: 100%;
+    padding-right: 41px;
+    padding-top: 38px;
 
     @media screen and (max-width: 1200px) {
       width: auto;
       text-align: center;
+      padding-right: 0px !important;
     }
   }
 
@@ -41,6 +43,12 @@
     @include chooseSubtitleStyle();
     padding-top: 20px;
     padding-right: 0px;
+
+   @media screen and (max-width : 992px){
+   text-align: center; 
+   margin: auto;
+    
+   }
   }
   .yellow-container {
     @media screen and (max-width: 998px) {
@@ -54,9 +62,8 @@
     .yellowArrow {
       padding: 10px 0px 0px 13px;
 
-      @media screen and (max-width :768px){
-        padding: 10px 0px 0px 0px!important;
-        
+      @media screen and (max-width: 768px) {
+        padding: 10px 0px 0px 0px !important;
       }
     }
   }
